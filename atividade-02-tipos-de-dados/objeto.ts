@@ -17,10 +17,10 @@ console.log(pessoa1.nome)
 
 //Questão 3
 pessoa1.profissao = "Programador";
-console.log(pessoa1);
 
 //Questão 4
 pessoa1.idade = 22
+console.log(pessoa1);
 
 //Questão 5
 type Animal = {
