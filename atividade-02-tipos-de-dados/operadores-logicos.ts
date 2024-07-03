@@ -38,4 +38,4 @@ console.log(tamanhoCarro)
 // console.log(verifica);
 console.log(typeof tamanhoCarro == "boolean");
 
-// OK
+// OK!

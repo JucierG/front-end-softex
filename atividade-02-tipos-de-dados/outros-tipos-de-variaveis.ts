@@ -14,3 +14,5 @@ console.log(variavelUndefined == undefined)
 type Objeto ={
     nome?: undefined;
 }
+
+// OK

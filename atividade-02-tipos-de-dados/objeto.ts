@@ -77,3 +77,5 @@ console.log(carro1)
 //Questão 11
 carro1.modelo = undefined
 console.log(carro1)
+
+// OK

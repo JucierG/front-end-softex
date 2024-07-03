@@ -26,3 +26,5 @@ console.log(x * y2)
 
 //Questão 8
 console.log(x / y2)
+
+// OK

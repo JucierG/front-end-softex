@@ -24,3 +24,5 @@ console.log(resultado)
 //Questão 7
 let teste: boolean = 25 < 5
 console.log(teste)
+
+// OK

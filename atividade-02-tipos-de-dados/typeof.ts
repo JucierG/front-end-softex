@@ -26,3 +26,5 @@ console.log(typeof(nulo))
 //Questão 7
 let indefinido;
 console.log(typeof(indefinido))
+
+// OK

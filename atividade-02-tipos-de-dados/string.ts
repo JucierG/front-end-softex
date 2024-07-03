@@ -19,4 +19,4 @@ let endereco : string = "Shopping Guararapes"
 endereco = "Curado"
 console.log(endereco)
 
-// OK
+// OK!
