@@ -3,7 +3,6 @@ type Pessoa = {
     nome: string;
     idade: number;
     endereco: string;
-    profissao: string;
 }
 
 let pessoa1: Pessoa = {
@@ -16,7 +15,7 @@ let pessoa1: Pessoa = {
 console.log(pessoa1.nome)
 
 //Questão 3
-pessoa1.profissao = "Programador";
+// ANULADA
 
 //Questão 4
 pessoa1.idade = 22
@@ -54,12 +53,12 @@ console.log(livro1.autor)
 livro1.ano = 1897
 
 //Questão 9
-delete livro1.titulo;
+// ANULADA
 
 //Questão 10
 type Carro = {
     marca: string;
-    modelo?: string;
+    modelo: string;
     ano: number;
 }
 

@@ -18,3 +18,5 @@ console.log(frase2.toUpperCase())
 let endereco : string = "Shopping Guararapes"
 endereco = "Curado"
 console.log(endereco)
+
+// OK
