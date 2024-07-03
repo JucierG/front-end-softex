@@ -11,12 +11,12 @@ let booleano: boolean = true;
 console.log(typeof(booleano))
 
 //Questão 4
-let array: string[]
+let array: string[]=[]
 console.log(typeof(array))
 
 //Questão 5
-type Objeto = {}
-let objeto: Objeto = {}
+type objeto = {}
+let objeto: objeto = {}
 console.log(typeof(objeto))
 
 //Questão 6

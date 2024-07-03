@@ -15,6 +15,10 @@ let pessoa1: Pessoa = {
 console.log(pessoa1.nome)
 
 //Questão 3
+// let pessoa1Profissao = {
+//     ...pessoa1,
+//     profissao: "Programador"
+// }
 // ANULADA
 
 //Questão 4
@@ -35,7 +39,7 @@ let animal1: Animal = {
 
 //Questão 6
 type Livro = {
-    titulo: string;
+    titulo?: string;
     autor: string;
     ano: number;
 }
@@ -53,12 +57,12 @@ console.log(livro1.autor)
 livro1.ano = 1897
 
 //Questão 9
-// ANULADA
+delete livro1.titulo;
 
 //Questão 10
 type Carro = {
     marca: string;
-    modelo: string;
+    modelo?: string;
     ano: number;
 }
 

@@ -29,8 +29,13 @@ console.log(30 != 30)
 console.log(20 >= 20 && 20 < 5)
 
 //Questão 13
-let palavra: string = ""
-console.log(palavra.length == 0)
+let carro: string = ""
+let tamanhoCarro = carro.length == 0
+console.log(tamanhoCarro)
 
 //Questão 14
-console.log(typeof(palavra  == boolean))
+// let verifica = typeof tamanhoCarro == "boolean";
+// console.log(verifica);
+console.log(typeof tamanhoCarro == "boolean");
+
+// OK
