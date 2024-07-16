@@ -17,10 +17,9 @@ let resultado = Number(numero1) + Number(numero2);
 console.log(resultado);
 
 // Questão 4
-string1 = "Estudar";
-string2 = "é bom!";
+const string1 = "Estudar";
+const string2 = "é bom!";
 console.log(string1 + string2);
 
-numero3 = 48
-console.log(string1 +" "+ string2 +" "+ numero3)
-
+numero3 = 48;
+console.log(string1 + " " + string2 + " " + numero3);
