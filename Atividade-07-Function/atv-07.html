@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo-softex.png">
+    <title>Atividade 07 - Funções</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="atv-07.js"></script>
+</head>
+<body>
+
+
+    <h1>Atividade 07 - Funções</h1>
+
+    <div id="div-respostas">
+
+        <div class="respostas">
+            <h2 id="resposta1">Questão 1</h2>
+
+            <button onclick=questao1()>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta2">Questão 2</h2>
+
+            <button onclick=questao2()>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta3">Questão 3</h2>
+
+            <button onclick=questao3(10,20)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta4">Questão 4</h2>
+
+            <button onclick=questao4(2,4)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta5">Questão 5</h2>
+
+            <button onclick=questao5(5,10)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta6">Questão 6</h2>
+
+            <button onclick=questao6(4)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta7">Questão 7</h2>
+
+            <button onclick=questao7(4,10,6)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta8">Questão 8</h2>
+
+            <button onclick=questao8(82,1.70)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta9">Questão 9</h2>
+
+            <button onclick=questao9(120,20)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta10">Questão 10</h2>
+
+            <button onclick=questao10(1920)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta11">Questão 11</h2>
+
+            <button onclick=questao11([12,250,172,892,2])>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta12">Questão 12</h2>
+
+            <button onclick="questao12('123')">Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta13">Questão 13</h2>
+
+            <button onclick="questao13([{nome: 'Igor', nota: 9.5}, {nome: 'Karla', nota: 8.0}, {nome: 'Letícia', nota: 7.5}])">Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta14">Questão 14</h2>
+
+            <button onclick=questao14(2001)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta15">Questão 15</h2>
+
+            <button onclick=questao15(5)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta16">Questão 16</h2>
+
+            <button onclick=questao16(23)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta17">Questão 17</h2>
+
+            <button onclick='questao17({"nome": "João", "idade": 30, "profissao": "Desenvolvedor"}, "nome")'>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta18">Questão 18</h2>
+
+            <button onclick=questao18(120,20,15.90)>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta19">Questão 19</h2>
+
+            <button onclick='questao19("Tutorial de desenvolvimento da web")'>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta20">Questão 20</h2>
+
+            <button onclick='questao20(["Olá", "Mundo", "Softex"])'>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta21">Questão 21</h2>
+
+            <button onclick='questao21(["Itadori", "Sukuna", "Gojo", "Aoi"])'>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta22">Questão 22</h2>
+
+            <button onclick='questao22([
+                {"titulo": "Jujutsu Kaisen", "autor": "Gege Akutami", "ano": "2022"},
+                {"titulo": "Fire Punch", "autor": "Tatsuki Fujimoto", "ano": "2016"},
+                {"titulo": "Chainsaw Man", "autor": "Tatsuki Fujimoto", "ano": "2020"}
+            ])'>Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta23">Questão 23</h2>
+
+            <button onclick="questao23([
+                { nome: 'Alice', idade: 30 },
+                { nome: 'Bob', idade: 25 },
+                { nome: 'Carol', idade: 35 }
+            ])">Testar</button>
+        </div>
+
+        <div class="respostas">
+            <h2 id="resposta24">Questão 24</h2>
+
+            <button onclick="questao24([
+                { marca: 'Toyota', modelo: 'Corolla', ano: 2022 },
+                { marca: 'Honda', modelo: 'Civic', ano: 2018 },
+                { marca: 'Ford', modelo: 'Focus', ano: 2020 }
+            ], 2019)">Testar</button>
+        </div>
+        
+        <div class="respostas">
+            <h2 id="resposta25">Questão 25</h2>
+
+            <button onclick='questao25("Hello")'>Testar</button>
+        </div>
+    </div>
+
+</body>
+</html>
