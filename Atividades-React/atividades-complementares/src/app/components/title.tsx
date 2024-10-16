@@ -26,7 +26,7 @@ export function Title(){
             <form onSubmit={submitHandler}>
                 <input id="title-content" type="text" placeholder="Digite o novo título" className="border border-black rounded"/>
                 <br />
-                <button type="button" id="change-title-content" onClick={titleChangeHandler} className="bg-purple-500 p-3 rounded m-3">Mudar título</button>
+                <button type="button" id="change-title-content" onClick={titleChangeHandler} className="bg-purple-500 p-3 rounded m-3">Change title</button>
             </form>
         </div>
     );
